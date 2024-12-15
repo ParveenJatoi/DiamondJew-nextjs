@@ -5,11 +5,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./header";
 import NewsStrip from "./strip";
-import HeroSection from './herosec';
-import FeaturedCollection from './feature';
-import BridalCollection from './bridal';
-import GiftForHer from './videos';
-import ProductSection from "./product";
 import Footer from './footer'; // Example for footer import
 
 
@@ -41,11 +36,7 @@ export default function RootLayout({
       >
         <NewsStrip/>
         <Header/>
-        <HeroSection/>
-        <FeaturedCollection/>
-        <BridalCollection/>
-        <ProductSection/>
-        <GiftForHer/>
+        
        {children}
         <Footer/>
       </body>

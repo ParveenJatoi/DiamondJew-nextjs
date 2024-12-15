@@ -1,4 +1,17 @@
+import HeroSection from "./herosec"
+import FeaturedCollection from "./feature"
 
+import GiftForHer from "./videos"
+import BridalCollection from "./bridal/page"
+import ProductSection from "./latest/page"
 export default function Home() {
-    return null; // Or <div></div> if you prefer
+    return (
+      <div>
+      <HeroSection/>
+        <FeaturedCollection/>
+        <BridalCollection/>
+        <ProductSection/>
+        <GiftForHer/>
+        </div>
+    )
   }

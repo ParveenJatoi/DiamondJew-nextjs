@@ -15,6 +15,8 @@ const products: Product[] = [
   { id: 3, name: 'Silver Earrings', imageSrc: '/images/earings2.jpg', price: '$800' },
   { id: 4, name: 'Platinum Necklace', imageSrc: '/images/neclace3.jpg', price: '$2,500' },
   { id: 5, name: 'Emerald Pendant', imageSrc: '/images/pandat3.jpg', price: '$3,200' },
+  { id: 5, name: 'Emerald Neclace', imageSrc: '/images/chokar.jpeg', price: '$3,200' },
+  { id: 5, name: 'Emerald CasualSet', imageSrc: '/images/casual.jpeg', price: '$3,200' },
 ];
 
 const FeaturedCollection: React.FC = () => {
